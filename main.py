@@ -12,9 +12,9 @@ Label(root, text='Welcome\nFace Recognition System', bg='light blue', font=('cal
 #name = Entry(root, bg='pink', borderwidth='5',)
 def login():
     os.system('login.py')
-    os.system('train.py')
 def register():
     os.system('register.py')
+    os.system('train.py')
 #def train():
  #   os.system('train.py')
 # Buttons
